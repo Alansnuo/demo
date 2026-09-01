@@ -1,0 +1,13 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境(不提交)
+.venv/
+venv/
+
+# 运行产生的数据文件(可选保留, 默认不上传)
+sensor_data.json
+
+# 临时文件
+*.tmp

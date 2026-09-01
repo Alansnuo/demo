@@ -19,6 +19,7 @@ pip install -r requirements.txt
 依赖：`paho-mqtt`（MQTT 客户端）、`pymodbus`（Modbus TCP 客户端）。GUI 使用 Python 自带 tkinter；Python 3.7 需额外安装 `typing_extensions`（requirements 已包含）。
 
 ## MQTT 服务器
+![Uploading 屏幕截图 2026-09-01 154646.png…]()
 
 | 项目 | 值 |
 |---|---|
@@ -92,7 +93,7 @@ python gui.py
 ### Modbus 数据（主题 modbus/tcp/data）
 
 ```json
-{"寄存器": [7218], "时间": "14:04:44"}
+{"寄存器": [6], "时间": "14:04:44"}
 ```
 
 ### 写入记录（主题 modbus/tcp/write）
